@@ -23,69 +23,10 @@
 ## 4. 디렉토리 구조
 ```text
 src
-├── assets                                 # 이미지, 폰트 및 JSON 데이터
-│
-├── data                                   # 화면에 쓰이는 고정 데이터 관리
-│
-├── images                                 # 이미지 파일 보관
-│
-├── components                             # 공통으로 쓰이는 컴포넌트, 스타일, 데이터 관리 폴더
-│    │
-│    ├── common                            # 주요 컴포넌트
-│    │      ├── Gnb.js                     # 사이트 상단 글로벌 내비게이션 메뉴로, 주요 카테고리 페이지로 이동하는 링크 제공
-│    │      ├── Gnb.scss                   # Gnb 스타일 파일
-│    ├── detail                            # 상품 상세 페이지 전용 컴포넌트 폴더
-│    │      ├── DetailContent.js           # 상품 id 기반으로 상세 이미지를 렌더링하는 상품 정보 영역
-│    │      ├── DetailContent.scss         # DetailContent 스타일 파일
-│    │      │
-│    │      ├── DetailKeyword.js           # 트렌드 키워드를 이미지 그리드로 제공하는 상세 페이지
-│    │      ├── DetailKeyword.scss         # DetailKeyword 스타일 파일
-│    │      │
-│    │      ├── DetailPick.js              # 상세 페이지에서 MD 추천 상품 4개를 보여주는 섹션
-│    │      ├── DetailPick.scss            # DetailPick 스타일 파일
-│    │      │
-│    │      ├── DetailTop.js               # 상품 상세 페이지 상단, 이미지 선택과 옵션 선택 후 장바구니 담기 기능을 제공하는 영역
-│    │      ├── DetailPick.scss            # DetailTop 스타일 파일
-│    │
-│    ├── main                              # 메인 페이지(홈) 전용 컴포넌트 폴더
-│    │      ├── BannerSection.js      ┐
-│    │      ├── BannerSection.scss    │    # 메인 페이지 상단 및 이벤트 배너 영역으로, 자동 및 수동 슬라이드, 진행바, 화살표, 텍스트 오버레이 기능 제공
-│    │      ├── BannerSection2.js     │    # BannerSection 스타일 파일
-│    │      ├── BannerSection2.scss   ┘
-│    │      │
-│    │      ├── BottomBlog.js              # 무한 스크롤 방식의 트렌드 키워드 해시태그 섹션
-│    │      ├── BottomBlog.scss            # BottomBlog 스타일 파일
-│    │      │
-│    │      ├── CategorySection.js         # 스크롤 애니메이션이 적용된 러닝 뉴스 카드 섹션
-│    │      ├── CategorySection.scss       # CategorySection 스타일 파일
-│    │      │
-│    │      ├── Footer.js                  # 푸터 영역
-│    │      ├── Footer.scss                # Footer 스타일 파일
-│    │      │
-│    │      ├── Header.js                  # 헤더 및 네비게이션 영역
-│    │      ├── Header.scss                # Header 스타일 파일
-│    │      │
-│    │      ├── Midblog.js                 # 이벤트 및 프로모션 배너를 노출하는 메인 중단 영역
-│    │      ├── Midblog.scss               # Midblog 스타일 파일
-│    │      │
-│    │      ├── ProductSection.js      ┐
-│    │      ├── ProductSection.scss    │   # 슬라이드 기능·스크롤 애니메이션이 적용된 상품 섹션
-│    │      ├── ProductSection2.js     │   # ProductSection 스타일 파일
-│    │      ├── ProductSection2.scss   ┘
-│    │      │
-│    │      ├── TopBlog.js                 # 메인 페이지 상단 브랜드 인트로 및 안내 영역
-│    │      ├── TopBlog.scss               # TopBlog 스타일 파일
-│    │
-├── pages         # 라우팅 페이지 (Cart, Detail, Main...)
-│   ├── CartPage.js                        # 장바구니 페이지로, 로컬스토리지에서 담긴 상품 데이터를 불러와서 선택/삭제, 수량 조절, 합계 계산, 결제금액 확인, 이미지 미리보기 기능을 제공하는 컴포넌트
-│   ├── CartPage.scss                      # CartPage 스타일 파일
-│   │
-│   ├── DetailPage.js                      # 상품 상세 페이지로, 상단 이미지/옵션, 상품 정보, MD 추천, 키워드 섹션을 순차적으로 렌더링하는 컴포넌트
-│   │
-│   ├── MainPage.js                        # 메인 페이지로, 배너, 카테고리, 뉴스, 베스트셀러, 이벤트, 키워드 등 주요 섹션을 순서대로 렌더링하는 컴포넌트
-│   │
-└── layout                                 # 공통 레이아웃 구조 (Header, Footer )
-    ├── Layout.js                          # 공통 레이아웃 구조
+├── assets        # 이미지, 폰트 및 JSON 데이터
+├── components    # 재사용 가능한 공통 UI 컴포넌트
+├── pages         # 라우팅 페이지 (Main, Detail, Cart...)
+└── layout        # Header, Footer 등 레이아웃
 
 ## 5. 담당 역할
 
