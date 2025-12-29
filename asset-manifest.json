@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/stance-woong/static/css/main.fadedfe6.css",
-    "main.js": "/stance-woong/static/js/main.b46ca9cc.js",
+    "main.js": "/stance-woong/static/js/main.30b5941e.js",
+    "static/media/shoes12-6.jpg": "/stance-woong/static/media/shoes12-6.20b852009207ed9301b5.jpg",
     "static/media/shoes11-6.jpg": "/stance-woong/static/media/shoes11-6.eaae5c618fd720889249.jpg",
-    "static/media/shoes12-6.jpg": "/stance-woong/static/media/shoes12-6.eaae5c618fd720889249.jpg",
     "static/media/shoes13-6.jpg": "/stance-woong/static/media/shoes13-6.eaae5c618fd720889249.jpg",
     "static/media/shoes06-3.jpg": "/stance-woong/static/media/shoes06-3.19e6bfb11034acd27056.jpg",
     "static/media/RunningNews-4.jpg": "/stance-woong/static/media/RunningNews-4.4a1146d0581b13a56b83.jpg",
@@ -124,10 +124,10 @@
     "static/media/shoes16-3.jpg": "/stance-woong/static/media/shoes16-3.d8ddcbbd20b2decdd8d7.jpg",
     "index.html": "/stance-woong/index.html",
     "main.fadedfe6.css.map": "/stance-woong/static/css/main.fadedfe6.css.map",
-    "main.b46ca9cc.js.map": "/stance-woong/static/js/main.b46ca9cc.js.map"
+    "main.30b5941e.js.map": "/stance-woong/static/js/main.30b5941e.js.map"
   },
   "entrypoints": [
     "static/css/main.fadedfe6.css",
-    "static/js/main.b46ca9cc.js"
+    "static/js/main.30b5941e.js"
   ]
 }
