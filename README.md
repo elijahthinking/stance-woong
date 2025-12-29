@@ -7,7 +7,7 @@
 * **설명:** 기획부터 디자인, 개발까지 직접 참여하였으며, **Mock Data(JSON)**를 활용해 실제 커머스 로직을 구현한 운동화 쇼핑몰 프로젝트입니다.
 * **진행 기간:** 2025.12.21 ~ 2025.12.29 (6일)
 * **개발 인원:** FrontEnd 5인 (Team Project)
-* **배포 링크:** [\](https://github.com/dahye0937-beep/stance.git)]
+* **배포 링크:** [\](https://github.com/elijahthinking/stance-woong)]
 
 ## 2. 사용 기술 스택 (Tech Stack)
 * **Language:** JavaScript (ES6+)
